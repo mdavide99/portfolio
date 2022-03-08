@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar renders NavBar correctly 1`] = `
+<div>
+  <button>
+    <svg
+      class="sm:hidden dark:text-neutral-50 text-xl hover:text-blue-500 hover:dark:text-fuchsia-500 hover:transition-color duration-500"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 448 512"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+      />
+    </svg>
+  </button>
+  <div
+    class="fixed inset-x-0 bottom-0 top-0 pb-40 sm:pb-0 sm:static flex flex-col justify-center sm:flex-row items-center bg-neutral-50 dark:bg-neutral-900 sm:bg-transparent hidden sm:block "
+  >
+    <button>
+      <svg
+        class="absolute top-7 right-4 sm:hidden dark:text-neutral-50 text-xl hover:text-blue-500 hover:dark:text-fuchsia-500 hover:transition-color duration-500"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 352 512"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+        />
+      </svg>
+    </button>
+    <a
+      class="text-4xl sm:text-base my-3 sm:my-0 mx-5 text-gray-500 dark:text-neutral-100 hover:text-gray-900 hover:dark:text-white hover:transition-color hover:underline decoration-blue-500 dark:decoration-fuchsia-500 decoration-4 sm:decoration-2 underline-offset-8"
+      href="/"
+    >
+      about
+    </a>
+    <a
+      class="text-4xl sm:text-base my-3 sm:my-0 mx-5 text-gray-500 dark:text-neutral-100 hover:text-gray-900 hover:dark:text-white hover:transition-color hover:underline decoration-blue-500 dark:decoration-fuchsia-500 decoration-4 sm:decoration-2 underline-offset-8"
+      href="/projects"
+    >
+      projects
+    </a>
+    <a
+      class="text-4xl sm:text-base my-3 sm:my-0 mx-5 text-gray-500 dark:text-neutral-100 hover:text-gray-900 hover:dark:text-white hover:transition-color hover:underline decoration-blue-500 dark:decoration-fuchsia-500 decoration-4 sm:decoration-2 underline-offset-8"
+      href="/contact"
+    >
+      contact
+    </a>
+  </div>
+</div>
+`;

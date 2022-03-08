@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AwesomeRichText renders AwesomeRichText correctly 1`] = `
+<div>
+  <div
+    style="display: none;"
+  >
+    Unknown block type "undefined", please specify a serializer for it in the \`serializers.types\` prop
+  </div>
+</div>
+`;

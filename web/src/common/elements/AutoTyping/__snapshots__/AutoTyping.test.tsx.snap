@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AutoTyping renders AutoTyping correctly 1`] = `
+<div>
+  <p>
+    <span
+      class="mr-1"
+    >
+      You can ask me about
+    </span>
+    <span
+      class="border-r-2 pr-px border-blue-500 dark:border-fuchsia-500 font-mono text-blue-500 dark:text-fuchsia-500"
+    />
+  </p>
+</div>
+`;
