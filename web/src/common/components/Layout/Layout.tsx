@@ -5,7 +5,7 @@ function Layout({ children }: any) {
   return (
     <div className="flex flex-col justify-between min-h-screen bg-neutral-50 dark:bg-neutral-900">
       <Head />
-      <main className="container mx-auto px-4">{children}</main>
+      <main>{children}</main>
       <Footer />
     </div>
   );

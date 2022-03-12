@@ -2,6 +2,8 @@ import { GetStaticProps, NextPage } from "next";
 import { AwesomeRichText } from "../common/elements/AwesomeRichText";
 import { AwesomeTitle } from "../common/elements/AwesomeTitle";
 import { TimeLineItem } from "../common/elements/TimeLine";
+import { Seo } from "../common/elements/Seo";
+import { Container } from "../common/elements/Container";
 import client from "../client";
 
 interface Project {
@@ -18,7 +20,9 @@ interface Props {
 const Projects: NextPage<Props> = ({ projects }) => {
   return (
     <>
-      <div className="lg:flex lg:flex-row-reverse lg:max-w-4xl lg:mx-auto mb-8">
+    <Seo title={"Projects - Davide Marinotto"} description={"The curated list of my open projects"} />
+    <Container>
+    <div className="lg:flex lg:flex-row-reverse lg:max-w-4xl lg:mx-auto mb-8">
         <AwesomeTitle
           content={"My Projects"}
           className="text-center mx-auto md:mx-0 md:text-left w-3/4"
@@ -34,6 +38,7 @@ const Projects: NextPage<Props> = ({ projects }) => {
           <AwesomeRichText content={project.content} />
         </TimeLineItem>
       ))}
+    </Container>
     </>
   );
 };

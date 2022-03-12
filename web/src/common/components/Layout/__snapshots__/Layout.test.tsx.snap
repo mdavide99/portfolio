@@ -83,9 +83,7 @@ exports[`Layout renders Layout correctly 1`] = `
         </a>
       </div>
     </div>
-    <main
-      class="container mx-auto px-4"
-    />
+    <main />
     <footer
       class="container mx-auto px-4"
     >
