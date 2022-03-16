@@ -9,6 +9,18 @@ function Footer() {
         <div>
           <span className="font-light">Copyright © Davide Marinotto</span>
         </div>
+        <div>
+          <span className="font-light">Look inside the hood on </span>
+          <Link href={"https://github.com/mdavide99/portfolio"} passHref>
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              className="underline decoration-2 decoration-blue-500 dark:decoration-fuchsia-500 underline-offset-8 hover:underline-offset-4"
+            >
+              github
+            </a>
+          </Link>
+        </div>
         <div className="flex">
           <Link href={"https://github.com/mdavide99"} passHref>
             <a

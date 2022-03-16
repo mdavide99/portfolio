@@ -28,7 +28,9 @@ exports[`Layout renders Layout correctly 1`] = `
           </span>
         </a>
       </div>
-      <button>
+      <button
+        aria-label="Menu"
+      >
         <svg
           class="sm:hidden dark:text-neutral-50 text-xl hover:text-blue-500 hover:dark:text-fuchsia-500 hover:transition-color duration-500"
           fill="currentColor"
@@ -97,6 +99,21 @@ exports[`Layout renders Layout correctly 1`] = `
             Copyright © Davide Marinotto
           </span>
         </div>
+        <div>
+          <span
+            class="font-light"
+          >
+            Look inside the hood on 
+          </span>
+          <a
+            class="underline decoration-2 decoration-blue-500 dark:decoration-fuchsia-500 underline-offset-8 hover:underline-offset-4"
+            href="https://github.com/mdavide99/portfolio"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            github
+          </a>
+        </div>
         <div
           class="flex"
         >
@@ -140,6 +157,7 @@ exports[`Layout renders Layout correctly 1`] = `
             </svg>
           </a>
           <button
+            aria-label="Set Theme"
             class="text-lg ml-2"
           >
             <svg

@@ -16,7 +16,7 @@ function AwesomeTitle(props: AwesomeTitleProps) {
 
   let titleClass = classNames(
     props.className,
-    "font-extrabold  text-transparent bg-clip-text bg-gradient-to-t from-blue-600 to-blue-400  dark:bg-gradient-to-t dark:from-fuchsia-600 dark:to-fuchsia-400",
+    "font-extrabold text-transparent bg-clip-text bg-gradient-to-t from-blue-600 to-blue-400  dark:bg-gradient-to-t dark:from-fuchsia-600 dark:to-fuchsia-400",
     "text-4xl sm:leading-tight sm:text-5xl sm:leading-tight mb-2 sm:mb-3"
   );
 

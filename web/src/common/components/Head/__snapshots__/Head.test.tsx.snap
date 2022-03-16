@@ -25,7 +25,9 @@ exports[`Head renders Head correctly 1`] = `
         </span>
       </a>
     </div>
-    <button>
+    <button
+      aria-label="Menu"
+    >
       <svg
         class="sm:hidden dark:text-neutral-50 text-xl hover:text-blue-500 hover:dark:text-fuchsia-500 hover:transition-color duration-500"
         fill="currentColor"

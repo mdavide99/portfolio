@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 @layer base{
-    @font-face {
-        font-family: Inter var;
-        src: url('/fonts/Inter.var.woff2');
-    }
 p{
     @apply mb-3 text-base;
 }

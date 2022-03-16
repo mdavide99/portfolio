@@ -29,7 +29,7 @@ function NavBar() {
 
   return (
     <>
-      <button onClick={handleClick}>
+      <button aria-label="Menu" onClick={handleClick}>
         <FaBars className="sm:hidden dark:text-neutral-50 text-xl hover:text-blue-500 hover:dark:text-fuchsia-500 hover:transition-color duration-500" />
       </button>
 

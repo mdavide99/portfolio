@@ -40,6 +40,7 @@ function DarkModeToggle(props: DarkModeToggleProps) {
     <button
       onClick={theme === ThemeState.Light ? setDark : setLight}
       className={btnClass}
+      aria-label="Set Theme"
     >
       {theme === ThemeState.Light ? (
         <FaMoon className="text-neutral-600 hover:text-blue-600" />

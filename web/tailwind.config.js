@@ -8,8 +8,8 @@ module.exports = {
   darkMode:'class',
   theme: {
     fontFamily: {
-      sans: ['Inter var', 'sans-serif'],
-      serif: ['Inter var', 'serif'],
+      sans: ['Inter', 'sans-serif'],
+      serif: ['Inter', 'serif'],
       mono: ['Fira Code'],
     },
     extend: {},

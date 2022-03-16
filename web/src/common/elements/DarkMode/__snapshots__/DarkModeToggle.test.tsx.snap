@@ -3,6 +3,7 @@
 exports[`DarkModeToggle renders DarkModeToggle correctly 1`] = `
 <div>
   <button
+    aria-label="Set Theme"
     class="text-lg"
   >
     <svg
